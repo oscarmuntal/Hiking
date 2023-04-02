@@ -53,9 +53,9 @@
 		1FAC6A6F29D9907500F0AAB9 /* Hiking */ = {
 			isa = PBXGroup;
 			children = (
-				1FAC6A7E29D990D700F0AAB9 /* Models */,
 				1FAC6A7029D9907500F0AAB9 /* HikingApp.swift */,
 				1FAC6A7229D9907500F0AAB9 /* ContentView.swift */,
+				1FAC6A7E29D990D700F0AAB9 /* Models */,
 				1FAC6A7429D9907D00F0AAB9 /* Assets.xcassets */,
 				1FAC6A7629D9907D00F0AAB9 /* Preview Content */,
 			);
