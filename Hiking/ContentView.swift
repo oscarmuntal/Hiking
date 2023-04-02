@@ -12,7 +12,14 @@ struct ContentView: View {
     
     var body: some View {
         List(hikes, id: \.name) { hike in
-            Text(hike.name)
+            HStack {
+                Image(hike.imageURL)
+                    .resizable()
+                    .frame(width: 100, height: 100)
+                    .cornerRadius(16)
+                Text(hike.name)
+                
+            }
         }
     }
 }
