@@ -11,6 +11,7 @@
 		1FAC6A7329D9907500F0AAB9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC6A7229D9907500F0AAB9 /* ContentView.swift */; };
 		1FAC6A7529D9907D00F0AAB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAC6A7429D9907D00F0AAB9 /* Assets.xcassets */; };
 		1FAC6A7829D9907D00F0AAB9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAC6A7729D9907D00F0AAB9 /* Preview Assets.xcassets */; };
+		1FAC6A8029D990E600F0AAB9 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAC6A7F29D990E600F0AAB9 /* Hike.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		1FAC6A7229D9907500F0AAB9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1FAC6A7429D9907D00F0AAB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FAC6A7729D9907D00F0AAB9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FAC6A7F29D990E600F0AAB9 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		1FAC6A6F29D9907500F0AAB9 /* Hiking */ = {
 			isa = PBXGroup;
 			children = (
+				1FAC6A7E29D990D700F0AAB9 /* Models */,
 				1FAC6A7029D9907500F0AAB9 /* HikingApp.swift */,
 				1FAC6A7229D9907500F0AAB9 /* ContentView.swift */,
 				1FAC6A7429D9907D00F0AAB9 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				1FAC6A7729D9907D00F0AAB9 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FAC6A7E29D990D700F0AAB9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1FAC6A7F29D990E600F0AAB9 /* Hike.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FAC6A8029D990E600F0AAB9 /* Hike.swift in Sources */,
 				1FAC6A7329D9907500F0AAB9 /* ContentView.swift in Sources */,
 				1FAC6A7129D9907500F0AAB9 /* HikingApp.swift in Sources */,
 			);
