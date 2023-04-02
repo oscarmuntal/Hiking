@@ -11,8 +11,11 @@ struct ContentView: View {
     let hikes = Hike.all()
     
     var body: some View {
-        List(hikes, id: \.name) { hike in
-            HikeCell(hike: hike)
+        NavigationView {
+            List(hikes, id: \.name) { hike in
+                HikeCell(hike: hike)
+            }
+            .navigationBarTitle("Hikings")
         }
     }
 }
