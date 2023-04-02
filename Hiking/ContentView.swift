@@ -13,7 +13,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(hikes, id: \.name) { hike in
-                NavigationLink(destination: Text("Hiking Selected")) {
+                NavigationLink(destination: Text(hike.name)) {
                     HikeCell(hike: hike)
                 }
             }
